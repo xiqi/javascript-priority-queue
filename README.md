@@ -1,6 +1,8 @@
-# JavaScript implementation of PriorityQueue (using Min Heap or Max Heap)
+# JavaScript implementation of Priority Queue
 
-# Usage
+Min Heap or Max Heap
+
+## Usage
 
 ```javascript
 // Include using "import"
@@ -15,13 +17,13 @@ const maxQueue = new PriorityQueue.default('max'); // Highest priority first
 
 // Functions
 queue.enqueue(SOME_ITEM, PRIORITY_NUMBER); // add to the queue. e.g. queue.enqueue("a", 1)
-queue.dequeue(); // returns the current first item and remove it from the queue. e.g. returns "a" (without priority value)
+queue.dequeue(); // returns the current first item and remove it from the queue.
 queue.peek(); // returns the current first item
 queue.size(); // returns the number of items in the queue
-queue.toString(); // NOT IN SORTED ORDER! prints the all items with their priority values in the queue.
+queue.toString(); // NOT IN SORTED ORDER! prints the all items
 ```
 
-# Example
+## Example
 
 ```javascript
 const PriorityQueue = require('javascript-priority-queue');
