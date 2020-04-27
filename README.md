@@ -1,5 +1,7 @@
 # JavaScript implementation of Priority Queue
 
+[![npm](https://img.shields.io/npm/v/javascript-priority-queue)](https://www.npmjs.com/package/javascript-priority-queue)
+
 Min Heap or Max Heap
 
 ## Install
