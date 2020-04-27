@@ -2,6 +2,10 @@
 
 Min Heap or Max Heap
 
+## Install
+
+`yarn add javascript-priority-queue` or `npm install javascript-priority-queue`
+
 ## Usage
 
 ```javascript
